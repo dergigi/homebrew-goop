@@ -14,7 +14,7 @@ Goop has its own updater. To explicitly update through Homebrew:
 
 ```sh
 brew update
-brew upgrade --cask --greedy dergigi/goop/goop
+brew upgrade --cask dergigi/goop/goop
 ```
 
 The tap checks for new published stable releases hourly (GitHub schedules can be delayed). Maintainers can also run the **Update cask** workflow manually. Drafts and prereleases are excluded. Both installer hashes must match the published checksum manifest and GitHub asset metadata before an update is committed.
