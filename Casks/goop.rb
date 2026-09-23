@@ -1,9 +1,9 @@
 cask "goop" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.13.0"
-  sha256 arm:   "360150fea42574b9fc81301d2754b577ece9273819e8c5e24521498bf03069c3",
-         intel: "663b34c1bdafb6b93fa8280c31575d117ca27fc2ce511c69649b2c85f6433215"
+  version "2.13.1"
+  sha256 arm:   "ed99fdfb9c96ad7bc0ce2521fbeb143a981f6a606f9d194256e68fc51990cfc4",
+         intel: "e066ecec103e2fe1fa83de84f939c33b3b99c310651ab602c4a85656a1f0ea36"
 
   url "https://github.com/dergigi/goop/releases/download/v#{version}/goop-macos-#{arch}.dmg"
   name "Goop"
